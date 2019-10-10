@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+ <meta charset="">
+ <title>XM</title>
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+	font-family:"楷体";
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+	text-decoration: blink;
+	background-color: #222222;
+	color: #FFFFFF;
+	border-top-color: #222222;
+	border-right-color: #222222;
+	border-bottom-color: #222222;
+	border-left-color: #222222;
+}
+a{color:#FFFFFF;text-decoration:none;margin:2px;font-size:18px;line-height:150%;}
+a:hover{
+	color:#FFFFFF;
+	background-color: #F0F0F0;
+	font-size: 18px;
+	text-align: right;
+}
+body{
+	line-height:180%;
+	text-align: center;
+}
+.table{
+	margin:0 auto;
+	width:90%;
+	min-width:968px;
+	color:black;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #222;
+	border-bottom-color: #222;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #222;
+	border-left-color: #222;
+}
+.table td{border-left:1px solid #222222;height:32px;border-top:1px solid #222222;padding:1px;font-size:14px;margin:0 autoauto ;}
+.tr{text-align:center;valign="middle"}
+.tt{
+	background:#eeeeee;
+	font-weight:bold;
+	color:#016493;
+	font-size:36px;
+	text-align:center;
+valign="middle";
+	vertical-align: super;
+}
+.ts{padding:15px;text-align:center;}
+caption{color:blue;margin:0px;font-size:60px;line-height:100%;}
+strong{color:red;margin:2px;font-size:32px;line-height:120%;}
+.div{width:98%;padding:15px;background:bule;border-bottom:solid 1px White;color:white;}
+.btn{display:inline-block;padding:5px 8px;border:solid 2px white;color:white;margin:4px 8px;cursor:pointer;
+ font-weight:bold;font-size:14px;text-decoration:none;}
+.btn:hover{background:white;color:#326696;}
+.title,h1{
+	font-size:36px;
+	line-height:180%;
+	font-weight:bolder;
+	text-align:center;
+	margin:2px 4px;
+	color:#FFFFFF;
+	background-color: #222222;
+	text-decoration: blink;
+	background-image: none;
+}
+.center{font-size:18px;margin:0 auto;width:100%;max-width:1000px;}
+.mf{background:white;color:#326696;display:inline-block;height:18px;line-height:18px;
+ padding:5px;margin-top:-5px;text-align:center;font-size:14px;position:absolute;border-radius:11px;margin-left:10px;}
+#menu_list {margin:0 auto;width:100%;height:36px;line-height:36px;font-size:16px;text-align:center;list-style:none;}
+#menu_list a{border:solid 1px white;background:#326696;line-height:150%;font-weight:bold;}
+#menu_list li{margin:0 0 0 2px;float:left;position:relative;z-index:1;}
+#menu_list li .title{display:block;}
+#menu_list a:hover{background:white;color:#326696;border:1px solid white;}
+#menu_list li .sub_menu{position:absolute;left:8px;top:37px;border:1px solid white;background:gray;display:none;}
+#menu_list li .sub_menu a{border:1px solid white;color:white;display:block;}
+#menu_list li .sub_menu a:hover{background:white;color:#326696;border:1px solid white;}
+.fa:hover {text-decoration:underline;}
+.fa {color:white;text-decoration:none;}
+.STYLE2 {display: inline-block; padding: 5px 8px; border: solid 2px white; color: #016493; margin: 4px 8px; cursor: pointer; font-weight: bold; font-size: 16px; text-decoration: none; }
+.STYLE14 {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+</style>
+</head>
+<body>
+<span class="title"><img src="images/logo.png" align="left" id="Image1" style="width:140px;height:42px;"></span>
+<table width="100%" cellspacing="0" class="table">
+<td>
+<h1 style="font-family:'楷体';">XM系列机型查看与帮助</h1>
+<span id="sp_time"></span>
+
+<script type="text/javascript">
+
+setInterval(function(){
+
+ var dd = new Date();
+
+ var y = dd.getFullYear();
+
+ var m = dd.getMonth() + 1;
+
+ var d = dd.getDate();
+
+ var h = dd.getHours();
+
+ var mi = dd.getMinutes();
+
+ var s = dd.getSeconds();
+
+ var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());
+
+ document.getElementById("sp_time").innerHTML = str;
+
+},1000);
+
+</script>
+</table>
+<div id="">
+ <a href="部件页/伺服驱动器.html"><img src="images/sfqd.jpg" width="150" height="130"></a>&nbsp;<!--插入空格-->
+ <a href="部件页/射源.html"><img src="images/fushe.jpg" width="150" height="130"></a>&nbsp;<!--插入空格-->
+ <a href="部件页/空调.html"><img src="images/hdkt.jpg" width="150" height="130"></a>&nbsp;<!--插入空格-->
+ <a href="部件页/电源.html"><img src="images/dy.jpg" width="150" height="130"></a>&nbsp;<!--插入空格-->
+</div> 
+ <table width="100%" border="3" cellpadding="2" cellspacing=10">
+<thead>
+<tr class="tt"text-align:center">
+<td width="20%" ><img src="images/gear6.png" width="32" height="29"><a href="分页/安装.html">设备安装</a></td>
+<td width="20%" ><img src="images/268.png" width="32" height="29"><a href="分页/维护.html">维护与保养</a></td>
+<td width="20%" ><img src="images/i14.png"width="32" height="29"><a href="品号/品号.html">器件品号</a></td>
+<td width="20%" ><img src="images/w9.png"width="32" height="29"><a href="分页/常见问题.html">故障解决方案</a></td>
+<td width="10%" ><img src="images/shu.png" width="32" height="29"><a href="MY8045-XM系列产品说明书.doc">产品说明书</a></td>
+<td width="10%" ><img src="images/Internet.png"width="32" height="29"><a href="http://www.chinameyer.com/"><a href="../工业产品线.html">返回主页</a></td>
+</tr>
+</thead>
+<tbody><tr class="ts">
+<td colspan="5">
+  <table width="904" border="1">
+    <tr>
+      <td colspan="4">名称：XM系列X光机        </td>
+      <div align="center"><span class="title STYLE14">产品基本数据</span></div>
+        </tr>
+    <tr>
+      <td width="114">型号</td>
+      <td width="281">MY8045-XM系列</td>
+      <td width="125">电源</td>
+      <td width="356">单相AC220V±10%，50HZ/60HZ±1%，2KW</td>
+      </tr>
+    <tr>
+      <td>外型尺寸</td>
+      <td>1150mm×945mm×2070mm±30</td>
+      <td>进气气压</td>
+      <td>0.6-0.8MPa</td>
+      </tr>
+    <tr>
+      <td>整机重量</td>
+      <td>350kg</td>
+      <td>气源消耗</td>
+      <td>＜0.3立方米/分钟 </td>
+      </tr>
+    <tr>
+      <td>皮带宽度</td>
+      <td>430mm</td>
+      <td>X射线输出</td>
+      <td>铍窗，350WMax，80KV/8.0MA</td>
+      </tr>
+    <tr>
+      <td>受检品尺寸</td>
+      <td>宽度≤400mm 高度≤200mm </td>
+      <td>射线泄漏量</td>
+      <td>＜1mSv</td>
+      </tr>
+    <tr>
+      <td>传送带速度</td>
+      <td>10-80m/min</td>
+      <td>检测灵敏度</td>
+      <td><p>高清：SUS球≥Φ0.1mm</p>
+        <p>标准：SUS球≥Φ0.3mm</p></td>
+      </tr>
+    <tr>
+      <td>显示器</td>
+      <td><p>17寸液晶触摸屏</p>
+        <p>43寸4K高清显示屏 </p></td>
+      <td>使用环境</td>
+      <td>环境温度0-40度，湿度30-85%</td>
+      </tr>
+    <tr>
+      <td colspan="4"><img src="images/picture.gif" width="592"></td>
+      </tr>
+  </table>
+  </h1>
+ <div onClick="window.close();"><button id="change">关闭网页</button></div> 
+<td>
+<p><span class="title STYLE14">XM系列机型视频</span>
+<p><span class="title STYLE14">（双击全屏）</span>
+  <object classid="clsid:05589FA1-C356-11CE-BF01-00AA0055595A" id="ActiveMovie1" width="400" height="300">
+    <param name="ShowStatusBar" value="-1"> 
+    <param name="Filename" value="C:\Users\Administrator\Desktop\XM查看与帮助\yuciji.mp4"> 
+    <param name="AutoStart" value="ture">
+  </object>
+<p><span class="title STYLE14"><a href="部件页/培训视频.html">更多视频(维护）</a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" class="table">
+<tr class="tr">
+  <td>
+ 工业产品线 丁剑.2019年9月</td>
+</tr>
+</table>
+</body>
+</html>
