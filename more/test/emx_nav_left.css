@@ -267,7 +267,7 @@ font-family: Arial,sans-serif;
 	color: #ffffff;
 	font-weight: 900;
 	font-family: "Ώ¬Με";
-	font-size: 24px;
+	font-size: 10px;
 }
 
 /************** utility styles *****************/
@@ -355,12 +355,12 @@ font-family: Arial,sans-serif;
 
 #globalLink{
 	position: absolute;
-	top: 2px;
+	top: 12px;
 	height: 29px;
 	min-width: 640px;
 	padding: 0px;
 	margin: 0px;
-	left: 15px;
+	left: 13px;
 	z-index: 100;
 	width: 917px;
 	font-family: "Ώ¬Με";
