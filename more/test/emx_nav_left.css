@@ -267,7 +267,7 @@ font-family: Arial,sans-serif;
 	color: #ffffff;
 	font-weight: 900;
 	font-family: "¿¬Ìå";
-	font-size: 10px;
+	font-size: 24px;
 }
 
 /************** utility styles *****************/
@@ -355,14 +355,14 @@ font-family: Arial,sans-serif;
 
 #globalLink{
 	position: absolute;
-	top: 12px;
-	height: 34px;
+	top: 2px;
+	height: 29px;
 	min-width: 640px;
 	padding: 0px;
 	margin: 0px;
-	left: 10px;
+	left: 15px;
 	z-index: 100;
-	width: 792px;
+	width: 917px;
 	font-family: "¿¬Ìå";
 	background-color: #EEB13B;
 }
@@ -607,7 +607,7 @@ td.storyLeft{
 	font-size: 24px;
 }
 #masthead #globalNav #globalLink #gl2 {
-	font-size: 16px;
+	font-size: 24px;
 }
 #masthead #globalNav #globalLink #gl3 {
 	font-size: 24px;
