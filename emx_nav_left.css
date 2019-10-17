@@ -639,30 +639,33 @@ td.storyLeft{
 	color: #000000;
 }
 #pagecell1 .feature #cont_g {
-	height: 2cm;
-	width: 20cm;
+	height: 3.5cm;
+	width: 18cm;
 }
 #pagecell1 .feature #cont_h {
-	height: 5cm;
-	width: 20cm;
+	height: 8cm;
+	width: 18cm;
 }
 #pagecell1 .story #cont_b {
-	height: 4cm;
+	height: 7.5cm;
 	width: 10cm;
+	margin-top: 5cm;
 }
 #pagecell1 .story #cont_c {
-	height: 4cm;
-	width: 10cm;
+	height: 8cm;
+	width: 9cm;
+	margin-top: 5cm;
 }
 #pagecell1 .story #cont_d {
-	height: 4cm;
-	width: 10cm;
+	height: 7.5cm;
+	width: 9cm;
 }
 #pagecell1 .story #cont_e {
-	height: 4cm;
-	width: 10cm;
+	height: 6.8cm;
+	width: 7.5cm;
+	padding: 20px;
 }
 #pagecell1 .story #cont_f {
-	height: 4cm;
-	width: 10cm;
+	height: 6.8cm;
+	width: 8cm;
 }
