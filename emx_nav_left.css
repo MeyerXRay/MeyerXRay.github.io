@@ -617,3 +617,52 @@ td.storyLeft{
 #masthead #globalNav #globalLink #gl5 {
 	font-size: 16px;
 }
+#pagecell1 .feature #cont_g a {
+	color: #000000;
+}
+#pagecell1 .feature #cont_h a {
+	color: #000000;
+}
+#pagecell1 .story #cont_b a {
+	color: #000000;
+}
+#pagecell1 .story #cont_c a {
+	color: #000000;
+}
+#pagecell1 .story #cont_d a {
+	color: #000000;
+}
+#pagecell1 .story #cont_e a {
+	color: #000000;
+}
+#pagecell1 .story #cont_f a {
+	color: #000000;
+}
+#pagecell1 .feature #cont_g {
+	height: 2cm;
+	width: 20cm;
+}
+#pagecell1 .feature #cont_h {
+	height: 5cm;
+	width: 20cm;
+}
+#pagecell1 .story #cont_b {
+	height: 4cm;
+	width: 10cm;
+}
+#pagecell1 .story #cont_c {
+	height: 4cm;
+	width: 10cm;
+}
+#pagecell1 .story #cont_d {
+	height: 4cm;
+	width: 10cm;
+}
+#pagecell1 .story #cont_e {
+	height: 4cm;
+	width: 10cm;
+}
+#pagecell1 .story #cont_f {
+	height: 4cm;
+	width: 10cm;
+}
