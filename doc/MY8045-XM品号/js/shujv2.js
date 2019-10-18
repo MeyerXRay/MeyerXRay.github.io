@@ -22,7 +22,7 @@ var data = [ {
 	"endAddr" : "限位开关",
     "varietiesTypeName" : "MY8045-XM", 
 	"createDate" : "",
-  },,{    
+  },{    
     "taskCode" : "5",
 	"startAddr" : "29053070",
 	"endAddr" : "伺服电机",
