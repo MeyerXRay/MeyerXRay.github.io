@@ -280,4 +280,16 @@ var data = [ {
 	"endAddr" : "吹尘枪",
     "varietiesTypeName" : "MY8060-80XS", 
 	"createDate" : "",
+  },{    
+    "taskCode" : "48",
+	"startAddr" : "29053258",
+	"endAddr" : "振动筛",
+    "varietiesTypeName" : "MY8060-80XS", 
+	"createDate" : "",
+  },{    
+    "taskCode" : "49",
+	"startAddr" : "21033097",
+	"endAddr" : "坚果类专用皮带",
+    "varietiesTypeName" : "MY8060-80XS", 
+	"createDate" : "",
   }]
