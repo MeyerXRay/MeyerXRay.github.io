@@ -355,13 +355,13 @@ font-family: Arial,sans-serif;
 #globalLink{
 	position: absolute;
 	top: 11px;
-	height: 31px;
+	height: 27px;
 	min-width: 640px;
 	padding: 0px;
 	margin: 0px;
 	left: 12px;
 	z-index: 100;
-	width: 930px;
+	width: 850px;
 	font-family: "Courier New", Courier, monospace;
 	background-color: #EEB13B;
 }
@@ -543,11 +543,11 @@ td.storyLeft{
 	font-weight: bold;
 	padding: 3px 0px 3px 10px;
 	border-top-width: 1px;
-	border-bottom-width: 10px;
+	border-bottom-width: 20px;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-top-color: #EEB13B;
-	border-bottom-color: #333333;
+	border-bottom-color: #60AEDC;
 	color: #000000;
 }
 
@@ -596,7 +596,7 @@ td.storyLeft{
 
 /********************* end **********************/
 #pagecell1 #pageNav #sectionLinks a {
-	height: 30px;
+	height: 20px;
 	font-size: 18px;
 	text-align: center;
 }
