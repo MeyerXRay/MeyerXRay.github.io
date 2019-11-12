@@ -337,6 +337,7 @@ font-family: Arial,sans-serif;
 
 #globalNav img{
 	margin-bottom: -4px;
+	background-color: #222222;
  
 }
 
@@ -361,7 +362,7 @@ font-family: Arial,sans-serif;
 	margin: 0px;
 	left: 12px;
 	z-index: 100;
-	width: 850px;
+	width: 1014px;
 	font-family: "Courier New", Courier, monospace;
 	background-color: #222222;
 }
@@ -475,8 +476,8 @@ html>body .feature {height: auto;}
 /*************** story styles ******************/
 
 .story {
-	padding: 10px 0px 0px 10px;
-	font-size: 16PX;
+	padding: 0px 0px 0px 10px;
+	font-size: 16px;
 }
 
 .story h3{
