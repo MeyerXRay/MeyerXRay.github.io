@@ -355,12 +355,12 @@ font-family: Arial,sans-serif;
 
 #globalLink{
 	position: absolute;
-	top: 11px;
+	top: 5px;
 	height: 27px;
 	min-width: 640px;
 	padding: 0px;
 	margin: 0px;
-	left: 12px;
+	left: -4px;
 	z-index: 100;
 	width: 972px;
 	font-family: "Courier New", Courier, monospace;
