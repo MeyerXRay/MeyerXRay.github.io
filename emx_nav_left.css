@@ -204,7 +204,7 @@ font-family: Arial,sans-serif;
 	top: 112px;
 	left: 2%;
 	right: 2%;
-	width:105%;
+	width:95%;
 	background-color: #222222;
 }
 
@@ -319,7 +319,7 @@ font-family: Arial,sans-serif;
 
 #globalNav{
 	position: relative;
-	width: 110%;
+	width: 100%;
 	min-width: 640px;
 	height: 50px;
 	padding: 0px;
@@ -362,7 +362,7 @@ font-family: Arial,sans-serif;
 	margin: 0px;
 	left: 2px;
 	z-index: 100;
-	width: 972px;
+	width: 882px;
 	font-family: "Courier New", Courier, monospace;
 	background-color: #222222;
 }
@@ -602,10 +602,10 @@ td.storyLeft{
 #masthead #globalNav #globalLink #gl3 {
 }
 #masthead #globalNav #globalLink #gl1 {
-	font-size: 24px;
+	font-size: 20px;
 }
 #masthead #globalNav #globalLink #gl2 {
-	font-size: 24px;
+	font-size: 20px;
 }
 #masthead #globalNav #globalLink #gl3 {
 	font-size: 16px;
