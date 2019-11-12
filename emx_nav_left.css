@@ -204,7 +204,7 @@ font-family: Arial,sans-serif;
 	top: 112px;
 	left: 2%;
 	right: 2%;
-	width:95.6%;
+	width:105%;
 	background-color: #222222;
 }
 
@@ -319,7 +319,7 @@ font-family: Arial,sans-serif;
 
 #globalNav{
 	position: relative;
-	width: 100%;
+	width: 110%;
 	min-width: 640px;
 	height: 50px;
 	padding: 0px;
