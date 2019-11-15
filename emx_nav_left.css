@@ -118,8 +118,8 @@ body{
 	display: none;
 	top: 25%;
 	left: 25%;
-	width: 55%;
-	height: 28%;
+	width: 60auto;
+	height: 10%;
 	padding: 20px;
 	border: 10px solid #ACA7A3;
 	background-color: #000000;
