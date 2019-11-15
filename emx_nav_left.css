@@ -112,6 +112,97 @@ body{
 	z-index:1;
 	overflow: auto;
 	position: fixed;
+	
+}
+.cont8 {
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: 48%;
+	height: 48%;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
+.cont9 {
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: 52%;
+	height: 48%;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
+.cont10 {
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: 52%;
+	height: 48%;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
+.cont11 {
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: 35%;
+	height: 48%;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
+.cont12 {
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: 40%;
+	height: 48%;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
+.cont13 {
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: 53%;
+	height: 48%;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
 }
 /******* hyperlink and anchor tag styles *******/
 
