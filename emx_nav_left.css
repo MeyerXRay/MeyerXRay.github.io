@@ -362,7 +362,7 @@ font-family: Arial,sans-serif;
 	margin: 0px;
 	left: 2px;
 	z-index: 100;
-	width: 882px;
+	width: 898px;
 	font-family: "Courier New", Courier, monospace;
 	background-color: #222222;
 }
@@ -487,7 +487,7 @@ html>body .feature {height: auto;}
 }
 
 .story p {
-	padding: 0px 0px 10px 0px;
+	padding: 20px 0px 10px 0px;
 	font-size: 16px;
 }
 
