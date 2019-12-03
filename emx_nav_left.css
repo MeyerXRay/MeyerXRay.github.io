@@ -116,8 +116,8 @@ body{
 }
 .cont8 {
 	display: none;
-	top: 20%;
-	left: 20%;
+	top: 40%;
+	left: 10%;
 	width: 60auto;
 	height: 28%;
 	padding: 20px;
@@ -131,8 +131,8 @@ body{
 }
 .cont9 {
 	display: none;
-	top: 20%;
-	left: 20%;
+	top: 40%;
+	left: 10%;
 	width: 63%;
 	height: 28%;
 	padding: 20px;
@@ -146,8 +146,8 @@ body{
 }
 .cont10 {
 	display: none;
-	top: 20%;
-	left: 20%;
+	top: 40%;
+	left: 10%;
 	width: 63%;
 	height: 28%;
 	padding: 20px;
@@ -161,7 +161,7 @@ body{
 }
 .cont11 {
 	display: none;
-	top: 20%;
+	top: 40%;
 	left: 25%;
 	width: 42%;
 	height: 22%;
@@ -176,7 +176,7 @@ body{
 }
 .cont12 {
 	display: none;
-	top: 20%;
+	top: 40%;
 	left: 25%;
 	width: 47%;
 	height: 22%;
@@ -191,7 +191,7 @@ body{
 }
 .cont13 {
 	display: none;
-	top: 20%;
+	top: 40%;
 	left: 10%;
 	width: 68%;
 	height: 22%;
