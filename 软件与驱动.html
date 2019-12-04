@@ -25,6 +25,35 @@
   <!--pagecell1-->
   <div id="breadCrumb">
     <h2><img src="images/123.gif" alt="1" width="45" height="47" />工业产品线-技术支持</h2>
+	<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
+	
+<span id="sp_time"></span>
+
+<script type="text/javascript">
+
+setInterval(function(){
+
+ var dd = new Date();
+
+ var y = dd.getFullYear();
+
+ var m = dd.getMonth() + 1;
+
+ var d = dd.getDate();
+
+ var h = dd.getHours();
+
+ var mi = dd.getMinutes();
+
+ var s = dd.getSeconds();
+
+ var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());
+
+ document.getElementById("sp_time").innerHTML = str;
+
+},1000);
+
+</script>
   </div>
   
     <div class="feature">
