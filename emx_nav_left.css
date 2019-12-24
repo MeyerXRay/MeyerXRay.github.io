@@ -453,7 +453,7 @@ font-family: Arial,sans-serif;
 	margin: 0px;
 	left: 2px;
 	z-index: 100;
-	width: 1108px;
+	width: 993px;
 	font-family: "Courier New", Courier, monospace;
 	background-color: #222222;
 }
@@ -547,8 +547,6 @@ a.glink:hover{
 .feature{
 	padding: 0px 0px 10px 10px;
 	font-size: 16px;
-	height: auto;
-	color: #FFFFFF;
 }
 html>body .feature {height: auto;}
 
@@ -579,7 +577,6 @@ html>body .feature {height: auto;}
 }
 
 .story p {
-	padding: 20px 0px 10px 0px;
 	font-size: 16px;
 }
 
