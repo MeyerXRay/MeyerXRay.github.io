@@ -735,7 +735,7 @@ td.storyLeft{
 	width: 18cm;
 }
 #pagecell1 .story #cont_b {
-	height: 12cm;
+	height: auto;
 	width: auto;
 	margin-top: 5cm;
 }
@@ -749,7 +749,7 @@ td.storyLeft{
 	width: auto;
 }
 #pagecell1 .story #cont_e {
-	height: 12cm;
+	height: auto;
 	width: auto;
 	padding: 20px;
 }
