@@ -736,24 +736,24 @@ td.storyLeft{
 }
 #pagecell1 .story #cont_b {
 	height: 12cm;
-	width: 10cm;
+	width: auto;
 	margin-top: 5cm;
 }
 #pagecell1 .story #cont_c {
-	height: 13cm;
-	width: 9cm;
+	height: auto;
+	width: auto;
 	margin-top: 5cm;
 }
 #pagecell1 .story #cont_d {
-	height: 12cm;
-	width: 9cm;
+	height: auto;
+	width: auto;
 }
 #pagecell1 .story #cont_e {
 	height: 12cm;
-	width: 9cm;
+	width: auto;
 	padding: 20px;
 }
 #pagecell1 .story #cont_f {
-	height: 11cm;
-	width: 8cm;
+	height: auto;
+	width: auto;
 }
