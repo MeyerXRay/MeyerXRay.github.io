@@ -292,14 +292,13 @@ var data = [ {
 	"endAddr" : "坚果类专用皮带",
     "varietiesTypeName" : "MY8060-80XS", 
 	"createDate" : "",
-  }
-  {    
+  },{   
     "taskCode" : "50",
 	"startAddr" : "55023881",
 	"endAddr" : "系统底板接口板",
     "varietiesTypeName" : "MY8060-80XS", 
 	"createDate" : "",
-  }{    
+  },{  
     "taskCode" : "51",
 	"startAddr" : "55023860",
 	"endAddr" : "系统底板从板",
