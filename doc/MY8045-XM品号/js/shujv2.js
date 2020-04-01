@@ -184,4 +184,16 @@ var data = [ {
 	"endAddr" : "系统底板从板",
     "varietiesTypeName" : "MY8045-XM", 
 	"createDate" : "",
+  },{    
+    "taskCode" : "32",
+	"startAddr" : "53023179",
+	"endAddr" : "档边输送带",
+    "varietiesTypeName" : "MY8045-XM", 
+	"createDate" : "宽440mm",
+  },{    
+    "taskCode" : "33",
+	"startAddr" : "S0021135",
+	"endAddr" : "双导条输送带",
+    "varietiesTypeName" : "MY8045-XM", 
+	"createDate" : "宽430mm",
   }]
