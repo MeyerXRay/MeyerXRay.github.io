@@ -172,4 +172,16 @@ var data = [ {
 	"endAddr" : "前置板",
     "varietiesTypeName" : "MY8045-XM", 
 	"createDate" : "",
+  },{    
+    "taskCode" : "30",
+	"startAddr" : "55023881",
+	"endAddr" : "系统底板接口板",
+    "varietiesTypeName" : "MY8045-XM", 
+	"createDate" : "",
+  },{    
+    "taskCode" : "31",
+	"startAddr" : "55023860",
+	"endAddr" : "系统底板从板",
+    "varietiesTypeName" : "MY8045-XM", 
+	"createDate" : "",
   }]
