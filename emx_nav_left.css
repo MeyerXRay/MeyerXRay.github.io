@@ -8,11 +8,11 @@
 /***********************************************/
 body{
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #FFFFFF;
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
 	background-color: #222222;
+	color: #FFFFFF;
 }
 
 .cont1 {
@@ -242,7 +242,7 @@ h3{
 }
 
 h4{
-	color: #00FF00;
+	color: #FFFF00;
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, sans-serif;
@@ -251,7 +251,7 @@ h4{
 
 h5{
  font: 100% Arial,sans-serif;
- color: #334d55;
+ color: #00FF00;
  margin: 0px;
  padding: 0px;
 }
@@ -528,7 +528,7 @@ a.glink:hover{
 #breadCrumb{
 	padding: 5px 0px 5px 10px;
 	font: small Verdana,sans-serif;
-	color: #EEB13B;
+	color: #222222;
 	font-size: 18px;
 }
 
