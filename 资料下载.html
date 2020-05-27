@@ -1,124 +1,47 @@
-﻿<!DOCTYPE html PUBLIC >
-<html xmlns="">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>资料查询下载</title>
-<link rel="stylesheet" href="emx_nav_left.css" type="text/css" />
-<style>#pagecell1 feature a{
-	color:#EEB13B;
- 
-}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>资料下载</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/vector.js"></script>
 </head>
+<body>
 
-<div id="masthead">
-<h1 id="siteName"></h1>
-<!-- end masthead -->
-<body onmousemove="closesubnav(event);">
-<div class="skipLinks">skip to: <a href="#content">page content</a> | <a href="#pageNav">links on this page</a> | <a href="#globalNav">site navigation</a> | <a href="#siteInfo">footer (site information)</a> </div>
-<!-- end masthead -->
-<div id="pagecell1">
-  <!--pagecell1-->
-  <div id="breadCrumb">
-    <h2><img src="./images/123.gif" alt="1" width="45" height="47" />X光产品线-技术支持</h2>
-	<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-	
-<span id="sp_time"></span>
-
+<div id="container">
+	<div id="output">
+		<div class="containerT">
+		<img src="images/logo.png">
+		<p style="color:#FFFFFF;font-family:'楷体';font-size:36px;">&nbsp;</p>
+			<h1>资料下载</h1>
+			<form class="form" id="entry_form">
+				<input type="button"onClick="X1()"value="品号查询"/>
+				<input type="button"onClick="X2()"value="认证资料下载"/>
+				<input type="button"onClick="X3()"value="产品说明书"/>
+				<input type="button"onClick="X4()"value="产品快速调试指南"/>
+			</form>
+		</div>
+	</div>
+</div>
 <script type="text/javascript">
-
-setInterval(function(){
-
- var dd = new Date();
-
- var y = dd.getFullYear();
-
- var m = dd.getMonth() + 1;
-
- var d = dd.getDate();
-
- var h = dd.getHours();
-
- var mi = dd.getMinutes();
-
- var s = dd.getSeconds();
-
- var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());
-
- document.getElementById("sp_time").innerHTML = str;
-
-},1000);
-
+    $(function(){
+        Victor("container", "output");   //登录背景函数
+        $("#entry_name").focus();
+        $(document).keydown(function(event){
+            if(event.keyCode==6){
+                $("#entry_btn").click();
+            }
+        });
+    });
+	function X1(){window.location.href="品号查询.html";}
+	function X2(){window.location.href="认证资料下载.html";}
+	function X3(){window.location.href="产品说明书.html";}
+	function X4(){window.location.href="产品快速调试指南.html";}
 </script>
-  </div>
-  
-    <div class="feature">
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-      <h2><a name='header-n13' class='md-header-anchor '></a>品号查询</h2>
-	  <p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-	  X光标准检测片品号为53021213
-      <ol start='1' >
-	  <p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./doc/品号/品号.html'>MY8060-80XS（散料、坚果）关键部件品号</a>(更新 2020-4-1)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./doc/60XS品号/品号.html'>MY8045-60XS （S2）关键部件品号</a>(更新 2019-9-29)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./doc/MY8045-XM品号/品号.html'>MY8045-XM（鱼刺、小包装）关键部件品号</a>(更新 2020-4-1)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./doc/MY12015-XL品号/品号.html'>MY12015D-XL（罐装）关键部件品号</a>(更新 2019-10-17)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./doc/MY12060-XL品号/品号.html'>MY12060-XL（大尺寸包装）关键部件品号</a>(更新 2019-10-17)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./doc/SS-X8084SSF-S品号/品号.html'>SS-X8084SSF-S 关键部件品号</a>(更新 2020-4-22)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./doc/SS-X8084SSF-M2品号/品号.html'>SS-X8084SSF-M2 关键部件品号</a>(更新 2020-4-22)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./doc/SS-X8084SSF-M品号/品号.html'>SS-X8084SSF-M 关键部件品号</a>(更新 2020-4-22)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-</ol>
-
-<h2><a name='header-n13' class='md-header-anchor '></a>认证资料下载</h2>
-<ol start='1' >
-<li><a href='./download/检测片规格型号.zip'>X光标准检测片规格型号</a>(更新 2019-11-05)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./download/检测片第三方认证报告.zip'>X光标准检测片第三方认证报告</a>(更新 2019-11-07)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./download/CE认证.zip'>X光机设备CE认证</a>(更新 2019-11-08)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./download/辐射安全.zip'>X光机设备辐射安全证书</a>(更新 2019-12-10)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-</ol>
-<h2><a name='header-n13' class='md-header-anchor '></a>产品说明书（下载密码请联系X光产品线）</h2>
-	  <p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-      <ol start='1' >
-<li><a href='80XSencryption.html'>MY8060-80XS（散料，坚果）产品说明书</a>(PDF格式，更新 2020-02-25)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='60XSencryption.html'>MY8045-60XS （S2）产品说明书</a>(PDF格式，更新 2020-02-25)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='XMencryption.html'>MY8045-XM（鱼刺，小包装）系列产品说明书</a>(PDF格式，更新 2020-02-25)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='12015Dencryption.html'>MY12015D-XL（罐装）产品说明书</a>(PDF格式，更新 2020-02-25)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href=''>MY12060-XL（大尺寸包装）产品说明书</a>(正在审核制作中···)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-</ol>
-<h2><a name='header-n13' class='md-header-anchor '></a>产品快速调试指南(可下载打印成纸质贴于设备表面）</h2>
-	  <p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-      <ol start='1' >
-<li><a href='./download/高清鱼刺X光机快速使用指南v1.0.pdf'>高清鱼刺X光机快速使用指南v1.0</a>(PDF格式，更新 2020-03-03)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./download/XM特殊散料快速使用指南v1.0.pdf'>XM特殊散料快速使用指南v1.0</a>(PDF格式，更新 2020-03-03)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./download/80XS快速使用指南v1.0.pdf'>80XS快速使用指南v1.0</a>(PDF格式，更新 2020-04-21)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<li><a href='./download/60XS快速使用指南v1.0.pdf'>60XS（S2）快速使用指南v1.0</a>(PDF格式，更新 2020-04-21)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-</ol>
-</div>
-  <div id="siteInfo" ><img src="images/1.gif" width="30" height="30">
-  </a>| &copy;2019 X光产品线   (仅供公司内部员工使用，请勿外传！如对网站有意见或建议，可企业微信联系丁剑）</div>
-</div>
-<!--end pagecell1-->
-<br />
 </body>
 </html>
