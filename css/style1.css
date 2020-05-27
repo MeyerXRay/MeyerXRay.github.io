@@ -17,6 +17,6 @@ form input{-webkit-appearance:none;-moz-appearance:none;appearance:none;outline:
 form input:hover{background-color:rgba(255,255,255,.4)}
 form input:focus{
 	background-color:#fff;
-	width:230px;
+	width:320px;
 	color: #000000;
 }
