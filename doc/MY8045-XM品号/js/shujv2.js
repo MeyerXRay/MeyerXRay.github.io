@@ -196,4 +196,22 @@ var data = [ {
 	"endAddr" : "双导条输送带",
     "varietiesTypeName" : "MY8045-XM", 
 	"createDate" : "宽430mm",
+  },{    
+    "taskCode" : "34",
+	"startAddr" : "21043094",
+	"endAddr" : "十字滑块联轴器",
+    "varietiesTypeName" : "MY8045-XM", 
+	"createDate" : "鱼刺、包机通用",
+  },{    
+    "taskCode" : "35",
+	"startAddr" : "20543010",
+	"endAddr" : "调整环",
+    "varietiesTypeName" : "MY8045-XM", 
+	"createDate" : "鱼刺、包装通用",
+  },{    
+    "taskCode" : "36",
+	"startAddr" : "20533067",
+	"endAddr" : "深沟球轴承",
+    "varietiesTypeName" : "MY8045-XM", 
+	"createDate" : "鱼刺机",
   }]
