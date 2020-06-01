@@ -1,150 +1,52 @@
-﻿<!DOCTYPE html PUBLIC >
-<html xmlns="">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>下位机软件</title>
-<link rel="stylesheet" href="emx_nav_left.css" type="text/css" />
-<style>#pagecell1 feature a{
-	color:#EEB13B;
- 
-}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>下位机软件下载</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/vector.js"></script>
 </head>
-<div id="masthead">
-  <h1 id="siteName"></h1>
-    <!--end globalLinks-->
-  </div>
-</div>
-<!-- end masthead -->
-<div id="pagecell1">
-  <!--pagecell1-->
-  <div id="breadCrumb">
-    <h2><img src="images/123.gif" alt="1" width="45" height="47" />X光产品线-技术支持</h2>
-	<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-	
-<span id="sp_time"></span>
+<body>
 
+<div id="container">
+	<div id="output">
+		<div class="containerT">
+		<img src="images/logo.png">
+		<p style="color:#FFFFFF;font-family:'楷体';font-size:36px;">&nbsp;</p>
+			<h1>下位机软件下载</h1>
+			<p style="color:#FFFFFF;font-family:'楷体';font-size:36px;">&nbsp;</p>
+			<form class="form" id="entry_form">
+				<input type="button"onClick="X1()"value="散料S1机型"/>
+				<input type="button"onClick="X2()"value="散料S2机型"/>
+				<input type="button"onClick="X3()"value="散料80XS机型"/>
+				<input type="button"onClick="X4()"value="12015立式包装机型"/>
+				<input type="button"onClick="X5()"value="12060大尺寸包装机型"/>
+				<input type="button"onClick="X6()"value="10080安检机机型"/>
+			</form>
+		</div>
+	</div>
+</div>
 <script type="text/javascript">
-
-setInterval(function(){
-
- var dd = new Date();
-
- var y = dd.getFullYear();
-
- var m = dd.getMonth() + 1;
-
- var d = dd.getDate();
-
- var h = dd.getHours();
-
- var mi = dd.getMinutes();
-
- var s = dd.getSeconds();
-
- var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());
-
- document.getElementById("sp_time").innerHTML = str;
-
-},1000);
-
+    $(function(){
+        Victor("container", "output");   //登录背景函数
+        $("#entry_name").focus();
+        $(document).keydown(function(event){
+            if(event.keyCode==6){
+                $("#entry_btn").click();
+            }
+        });
+    });
+	function X1(){window.location.href="散料S1机型.html";}
+	function X2(){window.location.href="散料S2机型.html";}
+	function X3(){window.location.href="散料80XS机型.html";}
+	function X4(){window.location.href="12015立式包装机型.html";}
+	function X5(){window.location.href="12060大尺寸包装机型.html";}
+	function X6(){window.location.href="10080安检机机型.html";}
 </script>
-  </div>
-  
-    <div class="feature">
-	<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-
-<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-<h2><a name='header-n13' class='md-header-anchor '></a>设备下位机电路板程序</h2>
-包含各机型各版本电路板程序。
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<ul>
-<h2><a name='header-n13' class='md-header-anchor '></a>S1</h2>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<ol start='1' >
-<li><b>散料1代S机型外围控制板各版本程序[<a href='./0Software/SS-X8084SSF-S_KZ_V1.00.zip'>SS-X8084SSF-S_KZ_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型外围控制板各版本程序[<a href='./0Software/SS-X8084SSF-S_KZ_V1.01.zip'>SS-X8084SSF-S_KZ_V1.01.jic</a>]</b>(更新 2019-11-11)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型外围控制板各版本程序[<a href='./0Software/SS-X8084SSF-S_KZ_V1.02.zip'>SS-X8084SSF-S_KZ_V1.02.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型外围控制板各版本程序[<a href='./0Software/SS-X8084SSF-S_KZ_1.2_V1.01.zip'>SS-X8084SSF-S_KZ_1.2_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型系统底板各版本程序[<a href='./0Software/SS-X8084SSF-S_CL_V1.00.zip'>SS-X8084SSF-S_CL_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型系统底板各版本程序[<a href='./0Software/SS-X8084SSF-S_CL_V1.01.zip'>SS-X8084SSF-S_CL_V1.01.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型系统底板各版本程序[<a href='./0Software/SS-X8084SSF-S_CL_V1.02.zip'>SS-X8084SSF-S_CL_V1.02.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型系统底板各版本程序[<a href='./0Software/SS-X8084SSF-S_CL_V1.03.zip'>SS-X8084SSF-S_CL_V1.03.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型系统底板各版本程序[<a href='./0Software/SS-X8084SSF-S_CL_V1.04.zip'>SS-X8084SSF-S_CL_V1.04.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型振动驱动板各版本程序[<a href='./0Software/SS-X8084SSF-S-JL_ZDKZ_V1.00.zip'>SS-X8084SSF-S-JL_ZDKZ_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型振动驱动板各版本程序[<a href='./0Software/SS-X8084SSF-S-JL_ZDKZ_V1.01.zip'>SS-X8084SSF-S-JL_ZDKZ_V1.01.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料1代S机型振动驱动板各版本程序[<a href='./0Software/SS-X8084SSF-S-JL_ZDKZ_V1.02.zip'>SS-X8084SSF-S-JL_ZDKZ_V1.02.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-</ol>
-<h2><a name='header-n13' class='md-header-anchor '></a>S2</h2>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<ol start='1' >
-<li><b>散料2代S2机型外围控制板程序[<a href='./0Software/SS-X8084SSF-S_KZ_V1.00.zip'>SS-X8084SSF-S2_KZ-1.0_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料2代S2机型振动驱动板程序[<a href='./0Software/SS-X8084SSF-S_KZ_V1.00.zip'>SS-X8084SSF-S2_ZDKZ-1.2_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-</ol>
-<h2><a name='header-n13' class='md-header-anchor '></a>80Xs</h2>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<ol start='1' >
-<li><b>散料3代80XS机型系统底板从板程序[<a href='./0Software/MY13009_XGCJ_V1.01.zip'>MY13009_XGCJ_V1.01.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>散料3代80XS机型振动驱动板程序[<a href='./0Software/MY8060-80XS_ZDKZ_V1.00.zip'>MY8060-80XS_ZDKZ_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-</ol>
-<h2><a name='header-n13' class='md-header-anchor '></a>12015立式包装</h2>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<ol start='1' >
-<li><b>MY12015D-XL立式包装系统底板从板程序[<a href='./0Software/MY13009_XGCJ_V1.01.zip'>MY13009_XGCJ_V1.01.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-</ol>
-<h2><a name='header-n13' class='md-header-anchor '></a>12060大尺寸包装</h2>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<ol start='1' >
-<li><b>MY12060-XL大尺寸包装系统底板接口板程序[<a href='./0Software/MY12060-XL_XGJK_V1.00.zip'>MY12060-XL_XGJK_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>MY12060-XL大尺寸包装系统底板从板程序[<a href='./0Software/MY13009_XGCJ_V1.01.zip'>MY13009_XGCJ_V1.01.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-</ol>
-<h2><a name='header-n13' class='md-header-anchor '></a>10080安检机</h2>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<ol start='1' >
-<li><b>MY-CX10080T安检机键盘程序[<a href='./0Software/MY-CX10080T_CZAJ_V1.00.zip'>MY-CX10080T_CZAJ_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>MY-CX10080T安检机键盘程序[<a href='./0Software/MY-CX10080T_CZAJ-1.0_V1.01.zip'>MY-CX10080T_CZAJ-1.0_V1.01.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>MY-CX10080T安检机外围控制板程序[<a href='./0Software/MY-CX10080T_KZ_V1.00.zip'>MY-CX10080T_KZ_V1.00.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>MY-CX10080T安检机外围控制板程序[<a href='./0Software/MY-CX10080T_KZ1.0_V1.01.zip'>MY-CX10080T_KZ1.0_V1.01.jic</a>]</b>(更新 2019-11-27)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-</ol>
-<h2><a name='header-n13' class='md-header-anchor '></a>正在制作中......</h2>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<ol start='1' >
-<li><b>鞋机下位机程序[<a href=''></a>]</b>(正在制作，敬请期待)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-<li><b>M系列机型下位机程序[<a href=''></a>]</b>(正在制作，敬请期待)</li>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
-</ol>
-</p>
-</ul>
-
-    </div>
-
-  <div id="siteInfo" ><img src="images/1.gif" width="30" height="30">
-  </a>| &copy;2019 X光产品线   (仅供公司内部员工使用，请勿外传！如对网站有意见或建议，可企业微信联系丁剑）</div>
-</div>
-<!--end pagecell1-->
-<br />
-
 </body>
 </html>
