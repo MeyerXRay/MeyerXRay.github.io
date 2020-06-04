@@ -1,248 +1,50 @@
-﻿<!DOCTYPE html PUBLIC >
-<html xmlns="">
-
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>产品信息</title>
-<link rel="stylesheet" href="emx_nav_left.css" type="text/css" />
-<style>
-#pagecell1 feature a{color:#EEB13B;}.STYLE1 {color: #EEB13B}
-</style>
+
+<link rel="stylesheet" type="text/css" href="css/styleQD.css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/vector.js"></script>
 </head>
+<body>
 
-<div id="masthead">
-
-<h1 id="siteName"></h1>
-<body onmousemove="closesubnav(event);">
-
-<div id="pagecell1">
-
-  <div id="breadCrumb">
-  
-    <h2><img src="./images/123.gif" alt="1" width="45" height="47" />X光产品线-技术支持</h2>
-	
-	<p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-	
-<span id="sp_time"></span>
-
+<div id="container">
+	<div id="output">
+		<div class="containerT">
+		<img src="images/logo.png">
+		<p style="color:#FFFFFF;font-family:'楷体';font-size:36px;">&nbsp;</p>
+			<h1>产品信息</h1>
+			<p style="color:#FFFFFF;font-family:'楷体';font-size:36px;">&nbsp;</p>
+			<form class="form" id="entry_form">
+				<input type="button"onClick="X1()"value="MY8060-80XS产品信息"/>
+				<input type="button"onClick="X2()"value="MY8045-60XS产品信息"/>
+				<input type="button"onClick="X3()"value="MY8045-XM产品信息"/>
+				<input type="button"onClick="X4()"value="MY12060-XL大尺寸包装产品信息"/>
+				<input type="button"onClick="X5()"value="MY12015D-XL立式包装产品信息"/>
+			</form>
+		</div>
+	</div>
+</div>
 <script type="text/javascript">
-
-setInterval(function(){
-
- var dd = new Date();
-
- var y = dd.getFullYear();
-
- var m = dd.getMonth() + 1;
-
- var d = dd.getDate();
-
- var h = dd.getHours();
-
- var mi = dd.getMinutes();
-
- var s = dd.getSeconds();
-
- var str = y + "年" + m + "月" + d + "日&nbsp;&nbsp;" + h + ":" + mi + ":" + s + "&nbsp;&nbsp;星期" + "日一二三四五六".charAt(dd.getDay());
-
- document.getElementById("sp_time").innerHTML = str;
-
-},1000);
-
+    $(function(){
+        Victor("container", "output");   //登录背景函数
+        $("#entry_name").focus();
+        $(document).keydown(function(event){
+            if(event.keyCode==6){
+                $("#entry_btn").click();
+            }
+        });
+    });
+	function X1(){window.location.href="80XS产品信息.html";}
+	function X2(){window.location.href="60XS产品信息.html";}
+	function X3(){window.location.href="XM产品信息.html";}
+	function X4(){window.location.href="12060大尺寸包装产品信息.html";}
+	function X5(){window.location.href="12015立式包装产品信息.html";}
 </script>
-  </div>
-  
-     <div class="feature">
-	  <p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-
-      <p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-
-      <img src="images/80XS.png" width="259" height="227" />
-      <h3> MY8060-80XS简介</h3>
-      <p>外型尺寸: 2650mm×1442mm×2350mm±30</p>
-	  
-	 <div>
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_i').style.display='block'">（1）标准振动器尺寸（点击查看）</a>
-	  <div id="cont_i" class="cont8">
-	  <img src="images/80XS振动器尺寸.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_i').style.display='none'">关闭窗口</a></div>
-	  
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_j').style.display='block'">（2）振动筛尺寸（点击查看）</a>
-	  <div id="cont_j" class="cont9">
-	  <img src="images/80XS振动筛尺寸.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_j').style.display='none'">关闭窗口</a></div>
-     </div>
-      <p>整机重量: 800kg</p>
-      <p>皮带宽度: 600mm  ，喷阀数：80个， 受检品尺寸：宽度≤588mm 高度≤35mm</p>
-	  <p>设备特色: 散料X光机，在检测精度不降低的情况下，同比60XS产量提升30%左右</p>
-	  <p>射源品牌: 自制射源寿命一般在8000～10000个小时</p>
-	  <p>产量参考: （1）常规物料类～大米约8～10吨/小时，黄豆约6-7吨/小时，花生约5～6吨/小时，南瓜籽约4吨/小时，葵花籽约2.5～3吨/小时</p>
-	  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）坚果类～巴旦木约1      ～1.5吨/小时左右，核桃约1～1.5吨/小时，夏威夷果约1.2～1.7吨/小时，碧根果约在1.2～1.7吨/小时。</p>
-	  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（3）工业品类～PET瓶片1～1.5吨/小时。</p>
-	  
-	  <p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-	
-	  <h4>巴旦木剔除演示视频</h4>
-	      <video id="media2" width="420" height="200" controls="controls"> 
-          <source src="视频\80XS.mp4"/>
-          </video>
-      <p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-    </div>
-	
-	<div class="story">
-      <h3><span class="feature"><img src="images/60XS.png" width="251" height="237"></span>MY8045-60XS简介</h3>
-      <p>外型尺寸: 3080mm×1120mm×2450mm±30</p>
-	  
-	  <div>
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_k').style.display='block'">标准振动器尺寸（点击查看）</a>
-	  <div id="cont_k" class="cont10">
-	  <img src="images/60XS尺寸.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_k').style.display='none'">关闭窗口</a>    </div>
-    </div>
-	
-      <p>整机重量: 700kg</p>
-      <p>皮带宽度: 470mm  ，喷阀数：60个  ，受检品尺寸：宽度≤460mm 高度≤20mm </p>
-      <p>设备特色: 散料X光机，在检测精度不降低的情况下，同比S1产量提升30%左右</p>
-	  <p>射源品牌: 自制射源寿命一般在8000～10000个小时</p>
-	  <p>产量参考: （1）脱水蔬菜类～脱水胡萝卜约2吨/小时左右，脱水青红椒约1.2吨/小时左右。</p>
-	  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）茶叶类～龙井茶约200公斤/小时左右，武夷山岩茶约600～800公斤/小时左右，铁观音茶约1吨/小时左右，绿茶约在1~1.5吨/小时左右。</p>
-	  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（3）籽仁干果类～葡萄干约2吨～3吨/小时左右，南瓜籽约2.5～3吨/小时左右，花椒约800～1200公斤/小时左右。</p>
-      <p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-	  <h4>演示视频正在制作中······</h4>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-  </div>
-  
-    <div class="story">
-      <h3><span class="feature"><img src="images/XM.png" width="251" height="247"></span>MY8045-XM简介</h3>
-	  
-      <p>外型尺寸: 1150mm×945mm×2070mm±30</p>
-	  
-	  <div>
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_l').style.display='block'">XM外型尺寸（点击查看）</a>
-	  <div id="cont_l" class="cont11">
-	  <img src="images/M3尺寸.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_l').style.display='none'">关闭窗口</a></div>
-    </div> 
-	
-      <p>整机重量: 350kg</p>
-      <p>皮带宽度: 450mm ，受检品尺寸：宽度≤400mm 高度≤200mm </p>
-      <p>设备特色: 包装类X光机，配备5种剔除机构的选配:</p>
-	  <p>射源品牌: 自制射源寿命一般在8000～10000个小时</p>
-	  
-      <div>
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_b').style.display='block'">（1）摆臂剔除机构（点击查看）</a>
-	  <div id="cont_b" class="cont1">
-	  <p class="STYLE1">摆臂剔除装置</p>
-	  <p class="STYLE1">尺寸：长850mm宽660mm高800mm±50</p>
-	  <img src="images/摆臂.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_b').style.display='none'">关闭窗口</a></div>
-	  
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_c').style.display='block'">（2）翻板剔除机构（点击查看）</a>
-	  <div id="cont_c" class="cont2">
-	  <p class="STYLE1">翻板剔除装置</p>
-	  <p class="STYLE1">尺寸：长600mm宽660mm高800mm±50</p>
-	  <img src="images/翻板.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_c').style.display='none'">关闭窗口</a></div>
-<br>
-
-      <a href = "javascript:void(0)" onclick = "document.getElementById('cont_d').style.display='block'">（3）气吹剔除机构（点击查看）</a>
-	  <div id="cont_d" class="cont3">
-	  <p class="STYLE1">气吹剔除装置</p>
-	  <p class="STYLE1">尺寸：长850mm宽660mm高800mm±50</p>
-	  <img src="images/气吹.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_d').style.display='none'">关闭窗口</a></div>
-	
-      <a href = "javascript:void(0)" onclick = "document.getElementById('cont_e').style.display='block'">（4）喷阀剔除机构（点击查看）</a>
-	  <div id="cont_e" class="cont4">
-	  <p class="STYLE1">喷阀剔除装置</p>
-	  <p class="STYLE1">尺寸：长745mm宽830mm高1305mm±50</p>
-	  <img src="images/喷阀.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_e').style.display='none'">关闭窗口</a></div>
-	  
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_f').style.display='block'">（5）推板剔除机构（点击查看）</a>
-	  <div id="cont_f" class="cont5">
-	  <p class="STYLE1">推板剔除装置</p>
-	  <p class="STYLE1">尺寸：长813mm宽880mm高800mm±50</p>
-	  <img src="images/推板.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_f').style.display='none'">关闭窗口</a></div>
-    </div>
-	
-	<p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-	
-	
-	<h4>翻板剔除装置演示视频</h4>
-		  <video id="media" width="420" height="200" controls="controls"> 
-    <source src="视频\皮带翻板剔除视频.mp4"/></video>
-	
-	<p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-	
-	<h4>摆臂剔除装置演示视频</h4>
-	      <video id="media2" width="420" height="200" controls="controls"> 
-    <source src="视频\摆臂剔除（盒装）.mp4"/>
-  </video>
-  
-<p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-  </div>
-  <div class="story">
-      <h3><span class="feature"><img src="images/8086.png" width="251" height="245"></span>MY12060-XL简介</h3>
-      <p>外型尺寸: 2250mm×1380mm×2110mm±30</p>
-	  
-	   <div>
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_m').style.display='block'">12060大尺寸包装尺寸（点击查看）</a>
-	  <div id="cont_m" class="cont12">
-	  <img src="images/8086大尺寸包装尺寸.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_m').style.display='none'">关闭窗口</a>    </div>
-    </div>
-	
-      <p>整机重量: 700kg</p>
-      <p>皮带宽度: 600mm ，受检品尺寸：宽度≤570mm 高度≤300mm </p>
-      <p>设备特色: 大尺寸包装X光机，配备2种剔除机构的选配:</p>
-	  <p>射源品牌: 伟杰射源</p>
-	  
-      <div>
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_c').style.display='block'">（1）翻板剔除机构（点击查看）</a>
-	  <div id="cont_c" class="cont2">
-	  <img src="images/翻板.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_c').style.display='none'">关闭窗口</a>    </div>
-	  
-	 <a href = "javascript:void(0)" onclick = "document.getElementById('cont_f').style.display='block'">
-  （2）推板剔除机构（点击查看）</a>
-	  <div id="cont_f" class="cont5">
-	  <img src="images/推板.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_f').style.display='none'">关闭窗口</a></div>
-    </div>
-	<p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-<h4>演示视频正在制作中······</h4>
-<p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-  </div>
-  <div class="story">
-      <h3><span class="feature"><img src="images/12015D.png" width="251" height="236"></span>MY12015D-XL简介</h3>
-      <p>外型尺寸: 5000mm×1460mm×1980mm±30</p>
-	  <div>
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_n').style.display='block'">12015立式包装机尺寸（点击查看）</a>
-	  <div id="cont_n" class="cont13">
-	  <img src="images/立式包装机尺寸.PNG" />
-	  <a href = "javascript:void(0)" onclick = "document.getElementById('cont_n').style.display='none'">关闭窗口</a>    </div>
-    </div>
-      <p>整机重量: 900kg</p>
-      <p>输送线宽度: 150mm ，受检品尺寸：直径≤150mm 高度≤250mm </p>
-      <p>设备特色: 罐装机，精准识别异物并使用气缸装置剔除含有恶性杂质的罐头</p>
-	  <p>射源品牌: 伟杰射源</p>
-      <p style="color:#FFFFFF;font-family:'楷体';font-size:5px;">&nbsp;</p>
-	   <p>产量参考: （1）铝制瓶装银鹭八宝粥<img src="images/物料一.PNG" width="40" height="90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（2）玻璃瓶装辣椒酱<img src="images/物料二.PNG" width="42" height="82">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（3）铁罐装奶粉<img src="images/物料三.PNG" width="67" height="87"></p>
-	   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;输送线速度28米/分钟约120～160瓶/分钟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
-	   输送线速度28米/分钟约120～160瓶/分钟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;输送线速度20米/分钟约60～80瓶
-	   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;输送线速度40米/分钟约160～200瓶/分钟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
-	   输送线速度40米/分钟约160～200瓶/分钟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	   <p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-	   <h4>演示视频正在制作中······</h4>
-       <p style="color:#FFFFFF;font-family:'楷体';font-size:24px;">&nbsp;</p>
-
-  </div>
-      <div id="siteInfo" ><img src="images/1.gif" width="30" height="30">
-      </a>| &copy;2019 X光产品线   (仅供公司内部员工使用，请勿外传！如对网站有意见或建议，可企业微信联系丁剑）</div>
-      </div>
-
-<br />
-
 </body>
 </html>
