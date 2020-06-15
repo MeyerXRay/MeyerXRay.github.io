@@ -4,6 +4,7 @@
 	font-size:13px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	text-transform: none;
+	color: #000000;
 }
 html,body{width:100%;height:100%;background:#fff}
 
@@ -19,4 +20,95 @@ form input:focus{
 	background-color:#fff;
 	width:320px;
 	color: #000000;
+}
+.cont8 {
+	display: none;
+	top: 25%;
+	left: 7%;
+	width: 300px;
+	height: 570px;
+	padding: 20px;
+	border: 10px solid #EEB13B;
+	background-color: #FFFFFF;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: absolute;
+	
+}
+.cont9 {
+	display: none;
+	top: 25%;
+	left: 7%;
+	width: 300px;
+	height: 570px;
+	padding: 20px;
+	border: 10px solid #EEB13B;
+	background-color: #FFFFFF;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: absolute;
+	
+}
+.cont10 {
+	display: none;
+	top: 25%;
+	left: 15%;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
+.cont11 {
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
+.cont12 {
+	display: none;
+	top: 25%;
+	left: 25%;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
+.cont13 {
+	display: none;
+	top: 25%;
+	left: 15%;
+	width: auto;
+	height: auto;
+	padding: 20px;
+	border: 10px solid #ACA7A3;
+	background-color: #000000;
+	color: black;
+	z-index:1;
+	overflow: auto;
+	position: fixed;
+	
+}
 }
