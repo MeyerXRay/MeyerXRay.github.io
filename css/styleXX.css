@@ -69,46 +69,46 @@ form input:focus{
 .cont11 {
 	display: none;
 	top: 25%;
-	left: 25%;
-	width: auto;
+	left: 5%;
+	width: 300px;
 	height: auto;
 	padding: 20px;
-	border: 10px solid #ACA7A3;
-	background-color: #000000;
+	border: 10px solid #EEB13B;
+	background-color: #FFFFFF;
 	color: black;
 	z-index:1;
 	overflow: auto;
-	position: fixed;
+	position: absolute;
 	
 }
 .cont12 {
 	display: none;
 	top: 25%;
-	left: 25%;
-	width: auto;
+	left: 5%;
+	width: 300px;
 	height: auto;
 	padding: 20px;
-	border: 10px solid #ACA7A3;
-	background-color: #000000;
+	border: 10px solid #EEB13B;
+	background-color: #FFFFFF;
 	color: black;
 	z-index:1;
 	overflow: auto;
-	position: fixed;
+	position: absolute;
 	
 }
 .cont13 {
 	display: none;
 	top: 25%;
-	left: 15%;
-	width: auto;
+	left: 5%;
+	width: 300px;
 	height: auto;
 	padding: 20px;
-	border: 10px solid #ACA7A3;
-	background-color: #000000;
+	border: 10px solid #EEB13B;
+	background-color: #FFFFFF;
 	color: black;
 	z-index:1;
 	overflow: auto;
-	position: fixed;
+	position: absolute;
 	
 }
 }
