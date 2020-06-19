@@ -8,7 +8,6 @@
 /***********************************************/
 body{
 	font-family: Georgia, "Times New Roman", Times, serif;
-	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
 	background-color: #CCCCCC;
@@ -294,9 +293,10 @@ font-family: Arial,sans-serif;
 	position:absolute;
 	top: 17px;
 	left: 14px;
-	right: 2%;
-	width:95.6%;
+	right: 50%;
+	width:50%;
 	background-color: #CCCCCC;
+	text-align: left;
 }
 
 #tl {
