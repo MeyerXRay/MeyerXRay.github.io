@@ -11,8 +11,8 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
-	background-color: #222222;
-	color: #FFFFFF;
+	background-color: #CCCCCC;
+	color: #000000;
 }
 
 .cont1 {
@@ -207,8 +207,8 @@ body{
 /******* hyperlink and anchor tag styles *******/
 
 a:link, a:visited{
-	color: #EEB13B;
-	text-decoration: none;
+	color: #FF0000;
+	text-decoration: underline;
 }
 
 a:hover{
@@ -225,11 +225,11 @@ h1{
 }
 
 h2{
-	color: #FFFFFF;
+	color: #000000;
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
-	background: #222222;
+	background: #CCCCCC;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: bold;
 }
@@ -296,7 +296,7 @@ font-family: Arial,sans-serif;
 	left: 14px;
 	right: 2%;
 	width:95.6%;
-	background-color: #222222;
+	background-color: #CCCCCC;
 }
 
 #tl {
@@ -528,7 +528,7 @@ a.glink:hover{
 #breadCrumb{
 	padding: 5px 0px 5px 10px;
 	font: small Verdana,sans-serif;
-	color: #EEB13B;
+	color: #000000;
 	font-size: 18px;
 }
 
@@ -600,9 +600,9 @@ td.storyLeft{
 
 #siteInfo{
 	clear: both;
-	border-top: 1px solid #FFFFFF;
+	border-top: 1px solid #000000;
 	font-size: small;
-	color: #FFFFFF;
+	color: #000000;
 	padding: 10px 10px 10px 10px;
 	margin-top: 0px;
 }
