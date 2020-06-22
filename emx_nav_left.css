@@ -8,6 +8,7 @@
 /***********************************************/
 body{
 	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
 	background-color: #CCCCCC;
@@ -227,10 +228,10 @@ h2{
 	color: #000000;
 	margin: 0px;
 	padding: 0px;
-	font-size: 24px;
-	background: #CCCCCC;
+	font-size: 36px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: bold;
+	background-color: #cccccc;
 }
 
 h3{
@@ -290,13 +291,12 @@ font-family: Arial,sans-serif;
 /* Layout Divs                                 */
 /***********************************************/
 #pagecell1{
-	position:absolute;
+	position:static;
 	top: 17px;
 	left: 14px;
-	right: 50%;
-	width:50%;
-	background-color: #CCCCCC;
-	text-align: left;
+	right: 2%;
+	width:1250px;
+	background-color: #cccccc;
 }
 
 #tl {
@@ -546,7 +546,7 @@ a.glink:hover{
 
 .feature{
 	padding: 0px 0px 10px 10px;
-	font-size: 16px;
+	font-size: 18px;
 }
 html>body .feature {height: auto;}
 
@@ -601,7 +601,7 @@ td.storyLeft{
 #siteInfo{
 	clear: both;
 	border-top: 1px solid #000000;
-	font-size: small;
+	font-size: 16px;
 	color: #000000;
 	padding: 10px 10px 10px 10px;
 	margin-top: 0px;
