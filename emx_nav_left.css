@@ -8,7 +8,6 @@
 /***********************************************/
 body{
 	font-family: Georgia, "Times New Roman", Times, serif;
-	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
 	background-color: #CCCCCC;
@@ -229,9 +228,9 @@ h2{
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
+	background: #CCCCCC;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: bold;
-	background-color: #cccccc;
 }
 
 h3{
@@ -291,12 +290,13 @@ font-family: Arial,sans-serif;
 /* Layout Divs                                 */
 /***********************************************/
 #pagecell1{
-	position:static;
+	position:absolute;
 	top: 17px;
 	left: 14px;
-	right: 2%;
-	width:1120px;
-	background-color: #cccccc;
+	right: 50%;
+	width:50%;
+	background-color: #CCCCCC;
+	text-align: left;
 }
 
 #tl {
