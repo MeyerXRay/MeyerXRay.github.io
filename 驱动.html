@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>软件驱动</title>
+
+<link rel="stylesheet" type="text/css" href="css/styleRJ.css">
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/vector.js"></script>
+</head>
+<body>
+
+<div id="container">
+	<div id="output">
+		<div class="containerT">
+		<img src="images/logo.png">
+		<p style="color:#FFFFFF;font-family:'楷体';font-size:36px;">&nbsp;</p>
+			<h1>软件驱动</h1>
+			<p style="color:#FFFFFF;font-family:'楷体';font-size:36px;">&nbsp;</p>
+			<form class="form" id="entry_form">
+				<input type="button"onClick="X1()"value="Windows 全系统驱动-USB转串口.zip"/>
+				<input type="button"onClick="X2()"value="Nvidia英伟达1050显卡驱动"/>
+				<p>说明：显卡驱动提取码: tddj</p>
+				<p style="color:#FFFFFF;font-family:'楷体';font-size:10px;">&nbsp;</p>
+				<input type="button"onClick="X3()"value="一键备份还原（ghost）"/>
+				<input type="button"onClick="X4()"value="libUSB驱动（部分老机型）"/>
+				<input type="button"onClick="X5()"value="Camlink采集卡驱动"/>
+				<input type="button"onClick="X6()"value="研华触摸屏驱动（安装后关闭系统声音）"/>
+				<input type="button"onClick="X7()"value="ELO触摸屏驱动（部分老机器）"/>
+				<input type="button"onClick="X8()"value="AnyDesk v5.2.1远程连接"/>
+				<input type="button"onClick="X9()"value="Win7系统激活"/>
+				<input type="button"onClick="X10()"value="伟杰射源控制软件"/>
+				<input type="button"onClick="X11()"value="谷歌拼音输入法"/>
+				<input type="button"onClick="X12()"value="USB转串口驱动(Z-Tek)"/>
+				<input type="button"onClick="X13()"value="vc_redistributabl"/>
+			</form>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        Victor("container", "output");   //登录背景函数
+        $("#entry_name").focus();
+        $(document).keydown(function(event){
+            if(event.keyCode==6){
+                $("#entry_btn").click();
+            }
+        });
+    });
+	function X1(){window.location.href="./1DriverTookits/Windows 全系统驱动.zip";}
+	function X2(){window.location.href="https://pan.baidu.com/s/1PJeK6UDQnjDothAPR2ReOA&shfl=shareset";}
+	function X3(){window.location.href="./1DriverTookits/OneKey.zip";}
+	function X4(){window.location.href="./1DriverTookits/libusb驱动.zip";}
+	function X5(){window.location.href="./1DriverTookits/EPIX_V3.8_Driver.zip";}
+	function X6(){window.location.href="./1DriverTookits/eGalaxTouch_5.11.0.9126.zip";}
+	function X7(){window.location.href="./1DriverTookits/SW602610_EloMouseTouch_5.8.2.zip";}
+	function X8(){window.location.href="./1DriverTookits/AnyDesk.zip";}
+	function X9(){window.location.href="./1DriverTookits/小马激活工具.zip";}
+	function X10(){window.location.href="./1DriverTookits/伟杰射源控制软件.zip";}
+	function X11(){window.location.href="./1DriverTookits/GooglePinyin.zip";}
+	function X12(){window.location.href="./1DriverTookits/USB转串口驱动(Z-Tek).zip";}
+	function X13(){window.location.href="./1DriverTookits/vc_redistributable.zip";}
+</script>
+</body>
+</html>
