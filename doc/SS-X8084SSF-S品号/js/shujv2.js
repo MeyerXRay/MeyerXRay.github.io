@@ -238,4 +238,22 @@ var data = [ {
 	"endAddr" : "吹尘枪",
     "varietiesTypeName" : "SS-X8084SSF-S", 
 	"createDate" : "外购件",
+  },{    
+    "taskCode" : "41",
+	"startAddr" : "53020148",
+	"endAddr" : "主动辊装置",
+    "varietiesTypeName" : "SS-X8084SSF-S", 
+	"createDate" : "制造件",
+  },{    
+    "taskCode" : "42",
+	"startAddr" : "53021230",
+	"endAddr" : "张紧辊装置",
+    "varietiesTypeName" : "SS-X8084SSF-S", 
+	"createDate" : "制造件",
+  },{    
+    "taskCode" : "43",
+	"startAddr" : "53012563",
+	"endAddr" : "从动辊装置",
+    "varietiesTypeName" : "SS-X8084SSF-S", 
+	"createDate" : "制造件",
   }]
