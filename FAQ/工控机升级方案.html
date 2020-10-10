@@ -237,6 +237,20 @@ text-indent:24.0pt'><img src="images/老工控机.PNG" width="213" height="279">
  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>若需要重新制作SS-X8084SSF-M2外围控制板通讯线，请准备长度500mm，一端接头7907-09F（品号33000138）</p>
  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>另一端使用<span class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt">DF1B-5S-2.5R</span>（品号33003006),同时需要配合插芯（品号33003009，5个）其中DB9一端需要使用安装盒（品号35033068），按照顺序焊接。</p>
  
+ <p class=MsoNormal style='color:#EEB13B;text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>实际更换经验分享：</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>第一步：拆下老的研华工控机和工控机机架。</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>第二步：安装固定新的工控机和工控机架。</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>新的工控机涉及线束:需要一个电源线（使用原先设备上自带的就行），一个VGA线（一端插新的工控机，一端插在显示屏），一个一拖4的40芯排线（一端是排线头，另外一端是4个DB接头），排线头插在工控机板上的com3、4、5、6端口，另外一端4个DB接头，分别对应com3系统底板，com4射源控制盒，com5需要通过插一个无源转换器，对应外围控制板。新的工控机4个USB端口，分别插上原来老的工控机的4个USB插头不分顺序。这一步完成后，新旧工控机安装替换已完成！下面就准备安装上位机程序，liuusb驱动和触摸屏elo驱动 </p>
+ <p class=MsoNormal style='color:#EEB13B;text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>（备注：M机型的外围控制板通讯线，需要改下线建议将一侧白色头子插针挑出来，重新安装按照上面图纸外围控制板与工控机通讯线顺序接插）</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>第三步：安装上位机程序（参考前文上位机软件程序准备及更换，），和修改端口号（参考前文串口号修改）。</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>上位机程序哪里下载？（https://meyerxray.github.io/）请进入X光产品线技术支持网站“上位机软件”“M系列机型”“M2”可以直接下载。
+ <p class=MsoNormal style='color:#EEB13B;text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>（备注：需要键盘和鼠标进行操作。）</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>第四步：安装libusb，在哪里下载？（https://meyerxray.github.io/）请进入X光产品线技术支持网站软件驱动中可以直接下载。</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>下载好安装包，解压后。M和M2机型，系统底板usb插头要连接到工控机（之前安装新的工控机这步已经做到位了），根据提示进行安装</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>第五步：打开上位机软件</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>点击xrayforfood，就会进入x光各个端口检测界面，看是否都能通信上。</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>第六步：安装触摸屏elo驱动</p>
+ <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;text-indent:24.0pt'>触摸屏elo驱动在哪里下载？（https://meyerxray.github.io/）请进入X光产品线技术支持网站软件驱动中可以直接下载。不安装这个驱动只能用鼠标操作显示界面，安装这个驱动根据提示选择“usb触摸驱动程序”，校正触摸屏后可以正常调试参数了。
 </div>
 
 </body>
