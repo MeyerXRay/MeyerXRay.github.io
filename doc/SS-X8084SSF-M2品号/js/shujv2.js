@@ -220,4 +220,10 @@ var data = [ {
 	"endAddr" : "显示器",
     "varietiesTypeName" : "SS-X8084SSF-M2", 
 	"createDate" : "",
+  },{    
+    "taskCode" : "38",
+	"startAddr" : "21033019",
+	"endAddr" : "无端输送带",
+    "varietiesTypeName" : "SS-X8084SSF-M2", 
+	"createDate" : "",
   }]
