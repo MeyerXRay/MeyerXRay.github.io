@@ -196,4 +196,10 @@ var data = [ {
 	"endAddr" : "显示器",
     "varietiesTypeName" : "SS-X8084SSF-M", 
 	"createDate" : "",
+  },{    
+    "taskCode" : "34",
+	"startAddr" : "21030008",
+	"endAddr" : "无端输送带、7044X专用",
+    "varietiesTypeName" : "SS-X8084SSF-M", 
+	"createDate" : "",
   }]
